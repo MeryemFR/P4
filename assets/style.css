@@ -71,6 +71,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 
@@ -96,6 +97,10 @@ body {
 	font-size: 14px;
 }
 
+#gallery {
+	min-height: 100vh;
+}
+
 .title {
 	text-align: center;
 	padding-block: 2em;
@@ -113,7 +118,8 @@ body {
 }
 
 .nav-pills .nav-link {
-	color: #000 
+	color: #000;
+	cursor: pointer;
 }
 
 .item-column {
@@ -161,7 +167,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5rem;
 }
 
 .quote__author {
@@ -264,6 +270,19 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+
+footer {
+	background-color: #1c6474;
+	padding-block: 2em;
+	color: white;
+	text-align: center;
+	p {
+	  a {
+		color: white;
+	  }
+	}
+  }
+  
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
